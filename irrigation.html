@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Irrigation Management</title>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="card">
+        <div class="title">Irrigation status</div>
+        <div class="status">
+          <div class="status-icon"></div>
+          <div class="status-text">OFF</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="title">Avg moisture</div>
+        <div class="data">
+          <div class="data-label">36%</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="title">Daily water consumption</div>
+        <div class="data">
+          <div class="data-value">600 l</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="title">Alarms</div>
+        <div class="alarm">
+          <i class="alarm-icon fas fa-exclamation-triangle"></i>
+          <div>4 Major Alarms</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="title">Sensors</div>
+        <div class="sensor">
+          <div class="sensor-label">SI Soil Moisture 1</div>
+          <div class="sensor-value">
+            <div class="sensor-value-text">Wheat 1</div>
+            <div class="sensor-value-text">37%</div>
+            <div class="sensor-value-icon"></div>
+            <div class="sensor-value-text">On</div>
+          </div>
+          <div class="sensor-actions">
+            <i class="sensor-action fas fa-edit"></i>
+            <i class="sensor-action fas fa-trash-alt"></i>
+          </div>
+        </div>
+        <div class="sensor">
+          <div class="sensor-label">SI Soil Moisture 2</div>
+          <div class="sensor-value">
+            <div class="sensor-value-text">Wheat 2</div>
+            <div class="sensor-value-text">36%</div>
+            <div class="sensor-value-icon"></div>
+            <div class="sensor-value-text">On</div>
+          </div>
+          <div class="sensor-actions">
+            <i class="sensor-action fas fa-edit"></i>
+            <i class="sensor-action fas fa-trash-alt"></i>
+          </div>
+        </div>
+        <div class="sensor">
+          <div class="sensor-label">SI Soil Moisture 3</div>
+          <div class="sensor-value">
+            <div class="sensor-value-text">Wheat 3</div>
+            <div class="sensor-value-text">32%</div>
+            <div class="sensor-value-icon"></div>
+            <div class="sensor-value-text">On</div>
+          </div>
+          <div class="sensor-actions">
+            <i class="sensor-action fas fa-edit"></i>
+            <i class="sensor-action fas fa-trash-alt"></i>
+          </div>
+        </div>
+        <div class="sensor">
+          <div class="sensor-label">SI Soil Moisture 4</div>
+          <div class="sensor-value">
+            <div class="sensor-value-text">Wheat 4</div>
+            <div class="sensor-value-text">39%</div>
+            <div class="sensor-value-icon"></div>
+            <div class="sensor-value-text">On</div>
+          </div>
+          <div class="sensor-actions">
+            <i class="sensor-action fas fa-edit"></i>
+            <i class="sensor-action fas fa-trash-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="card">
+        <div class="title">Irrigation Schedule</div>
+        <div class="schedule">
+          <div class="schedule-label">Name ↑</div>
+          <div class="schedule-label">Start day</div>
+          <div class="schedule-label">Start time</div>
+          <div class="schedule-label">Repeat</div>
+          <div class="schedule-label">End day</div>
+          <div class="schedule-label">Duration</div>
+          <div class="schedule-label">Volume</div>
+        </div>
+        <div class="schedule">
+          <div class="schedule-value">
+            <div class="schedule-value-text">Evening</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">5 Oct</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">02:00</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">Daily</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">1 Jan 2030</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">-</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">1000 l</div>
+          </div>
+          <div class="schedule-actions">
+            <i class="schedule-action fas fa-edit"></i>
+            <i class="schedule-action fas fa-trash-alt"></i>
+          </div>
+        </div>
+        <div class="schedule">
+          <div class="schedule-value">
+            <div class="schedule-value-text">Morning</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">4 Oct</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">13:00</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">Daily</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">1 Jan 2030</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">60 min</div>
+          </div>
+          <div class="schedule-value">
+            <div class="schedule-value-text">-</div>
+          </div>
+          <div class="schedule-actions">
+            <i class="schedule-action fas fa-edit"></i>
+            <i class="schedule-action fas fa-trash-alt"></i>
+          </div>
+        </div>
+        <div class="pagination">
+          <div class="pagination-item">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="pagination-item pagination-item-active">
+            1-2 of 2
+          </div>
+          <div class="pagination-item">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="map"></div>
+      </div>
+
+      <div class="card">
+        <div class="title">Statistics</div>
+        <div class="chart"></div>
+      </div>
+
+      <div class="card">
+        <div class="title">Irrigation Tasks</div>
+        <div class="tasks">
+          <div class="tasks-label">Realtime - last 7 days</div>
+        </div>
+        <div class="tasks">
+          <div class="tasks-label">Start day</div>
+          <div class="tasks-label">Start time</div>
+          <div class="tasks-label">End rule</div>
+          <div class="tasks-label">Duration</div>
+          <div class="tasks-label">Volume</div>
+          <div class="tasks-label">Progress</div>
+        </div>
+        <div class="tasks">
+          <div class="tasks-value">
+            <div class="tasks-value-text">9 Nov</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">13:00</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">30 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">~30 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">447 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">100%</div>
+          </div>
+        </div>
+        <div class="tasks">
+          <div class="tasks-value">
+            <div class="tasks-value-text">8 Nov</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">13:00</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">30 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">~30 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">452 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">100%</div>
+          </div>
+        </div>
+        <div class="tasks">
+          <div class="tasks-value">
+            <div class="tasks-value-text">7 Nov</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">13:00</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">1000 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">~63 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">1000 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">100%</div>
+          </div>
+        </div>
+        <div class="tasks">
+          <div class="tasks-value">
+            <div class="tasks-value-text">6 Nov</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">13:00</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">500 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">~36 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">500 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">100%</div>
+          </div>
+        </div>
+        <div class="tasks">
+          <div class="tasks-value">
+            <div class="tasks-value-text">5 Nov</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">12:00</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">1000 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">~63 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">1000 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">100%</div>
+          </div>
+        </div>
+        <div class="tasks">
+          <div class="tasks-value">
+            <div class="tasks-value-text">4 Nov</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">12:00</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">30 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">~30 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">407 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">100%</div>
+          </div>
+        </div>
+        <div class="tasks">
+          <div class="tasks-value">
+            <div class="tasks-value-text">3 Nov</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">12:00</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">30 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">~30 min</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">423 l</div>
+          </div>
+          <div class="tasks-value">
+            <div class="tasks-value-text">100%</div>
+          </div>
+        </div>
+        <div class="pagination">
+          <div class="pagination-item">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="pagination-item pagination-item-active">
+            1-7 of 7
+          </div>
+          <div class="pagination-item">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
